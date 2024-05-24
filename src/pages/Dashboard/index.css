@@ -1,0 +1,18 @@
+.dashboard-welcome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-welcome h1 {
+  font-size: 4rem;
+}
+.dashboard-container {
+  width: auto;
+  height: auto;
+}
+.dashboard-container h1 {
+  color: white;
+  font-size: 4rem;
+}

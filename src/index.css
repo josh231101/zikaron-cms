@@ -1,0 +1,130 @@
+:root {
+  --kit-color-primary: black !important;
+  --sm-max-width: 768px;
+  --border: #e4e9f0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+}
+
+/**
+ BOOTSTRAPISH STYLES
+**/
+
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mr-2 {
+  margin-right: 2rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/**
+* OVERRIDE ANTD STYLES
+*/
+.ant-layout-header {
+  background: var(--kit-color-primary);
+}
+
+.colorlab-grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 2rem;
+}
+
+.colorlab-grid__image {
+  /* set background image from folder images to contain all*/
+  width: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 560px;
+}
+
+.ant-form-item-label > label {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #322500 !important;
+}
+
+.ant-btn-primary {
+  background-color: var(--kit-color-primary);
+  border-color: var(--kit-color-primary);
+  border-radius: 24px;
+  padding-left: 42px;
+  padding-right: 42px;
+  color: #fff;
+}
+
+.ant-input {
+  background: #feeab2;
+}
+.input-styled {
+  border-radius: 24px;
+  background: #feeab2;
+  color: var(--kit-color-primary);
+}
+
+.ant-select ,.ant-select-selection, .ant-select-selector {
+  background:  #feeab2 !important;
+  border-radius: 24px !important;
+}

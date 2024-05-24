@@ -1,0 +1,19 @@
+.topbar {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.logo-topbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: var(--sm-max-width)) {
+  .topbar {
+    padding: 1rem;
+  }
+}

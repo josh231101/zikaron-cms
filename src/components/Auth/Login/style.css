@@ -1,0 +1,24 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  background: rgb(25,25,25);
+  background: linear-gradient(135deg, #E3DECD, #D6CCB0, #CABBA5);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.login__container {
+    padding: 2rem;
+    min-width: 400px;
+    min-height: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-image {
+  text-align: center;
+  margin: 2rem 0;
+}
