@@ -30,7 +30,7 @@ const Markers = () => {
             title: 'QR Image URL',
             dataIndex: 'qrImageUrl',
             key: 'qrImageUrl',
-            render: (text) => <Image src={text} />,
+            render: (text) => <Image src={text} width={200}/>,
         },
         {
             title: 'Marker URL',
@@ -42,7 +42,7 @@ const Markers = () => {
             title: 'Resource URL',
             dataIndex: 'resourceUrl',
             key: 'resourceUrl',
-            render: (text) => <Image src={text} />,
+            render: (text) => <Image src={text} width={300}/>,
 
         },
     ];
